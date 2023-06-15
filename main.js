@@ -84,7 +84,7 @@ async function patchChicken(chickenId, chickenData) {
   }
 }
 
-//Exemples de tests (vous pouvez remplacer les valeurs d'id avec vos tuples créés)
+//Exemples de tests ( vous pouvez remplacer les valeurs d'id avec vos tuples créés )
 // getChicken()
 // getChickenId('6489e3c19cadf299de850c57')
 // createChicken('testChicken',Date.now(),2.6,'6489d8ba5ea7e621b1c39a72');
