@@ -11,6 +11,7 @@ async function createFarmyard(name, location) {
     console.error('Erreur lors de la création de la ferme :', error.response.data);
   }
 }
+
 async function getChicken() {
   try {
     const response = await axios.get('http://localhost:3000/chicken');
@@ -19,6 +20,7 @@ async function getChicken() {
     console.error('Erreur lors de la récupération des poulet :', error.response.data);
   }
 }
+
 async function getChickenId(chickenId) {
   try {
     const response = await axios.get(`http://localhost:3000/chicken/${chickenId}`);
@@ -27,6 +29,7 @@ async function getChickenId(chickenId) {
     console.error('Erreur lors de la récuperation du poulet :', error.response.data);
   }
 }
+
 async function createChicken(name, birthday, weight, farmyardId) {
   try {
     const response = await axios.post('http://localhost:3000/chicken', {
@@ -40,6 +43,7 @@ async function createChicken(name, birthday, weight, farmyardId) {
     console.error('Erreur lors de la création du poulet :', error.response.data);
   }
 }
+
 async function runChicken(chickenId) {
   try {
     const response = await axios.post('http://localhost:3000/chicken/run', {
@@ -50,6 +54,7 @@ async function runChicken(chickenId) {
     console.error('Erreur lors de la course du poulet :', error.response.data);
   }
 }
+
 async function deleteChicken(chickenId) {
   try {
     const response = await axios.delete(`http://localhost:3000/chicken/${chickenId}`);
@@ -58,6 +63,7 @@ async function deleteChicken(chickenId) {
     console.error('Erreur lors de la suppression du poulet :', error.response.data);
   }
 }
+
 async function updateChicken(chickenId, name, birthday, weight, farmyardId, steps, isRunning) {
   try {
     const response = await axios.put(`http://localhost:3000/chicken/${chickenId}`, {
@@ -73,6 +79,7 @@ async function updateChicken(chickenId, name, birthday, weight, farmyardId, step
     console.error('Erreur lors de la mise a jour du poulet :', error.response.data);
   }
 }
+
 async function patchChicken(chickenId, chickenData) {
   try {
     const response = await axios.patch(`http://localhost:3000/chicken/${chickenId}`, 
