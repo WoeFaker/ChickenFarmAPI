@@ -84,12 +84,12 @@ async function patchChicken(chickenId, chickenData) {
   }
 }
 
-//Exemples de tests (valeurs d'id a remplacer par celles de vos tuples)
+//Exemples de tests (vous pouvez remplacer les valeurs d'id avec vos tuples créés)
 // getChicken()
 // getChickenId('6489e3c19cadf299de850c57')
 // createChicken('testChicken',Date.now(),2.6,'6489d8ba5ea7e621b1c39a72');
 // createFarmyard('testFarmyard','testland');
-// runChicken('648b1a23943dbdd88cba44bc');
+// runChicken('6489e3c19cadf299de850c57');
+// updateChicken('6489e3c19cadf299de850c57','update',Date.now(),66,'648b1a23943dbdd88cba44ba',85,true)
+// patchChicken('6489e3c19cadf299de850c57',{name: 'updatePatch'});
 // deleteChicken('648b1a23943dbdd88cba44bc');
-// updateChicken('648b1a23943dbdd88cba44bc','update',Date.now(),66,'648b1a23943dbdd88cba44ba',85,true)
-// patchChicken('648b1a23943dbdd88cba44bc',{name: 'updatePatch'});
