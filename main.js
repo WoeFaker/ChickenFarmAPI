@@ -91,6 +91,7 @@ async function patchChicken(chickenId, chickenData) {
   }
 }
 
+
 //Exemples de tests ( vous pouvez remplacer les valeurs d'id avec vos tuples créés )
 // getChicken()
 // getChickenId('6489e3c19cadf299de850c57')
