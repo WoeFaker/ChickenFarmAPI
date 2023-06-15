@@ -12,6 +12,10 @@ Installation des dépendances :
 ```bash
 npm install
 ```
+Lancement de l'application dans le terminal de app.js :
+```bash
+node .\app.js
+```
 
 ## Introduction
 
@@ -120,3 +124,8 @@ app.listen(3000, () => {
 });
 ```
 Cela signifie que le serveur est accessible à l'adresse http://localhost:3000.
+
+## Fonctions pour tester l'API
+
+Dans le fichier main.js se trouve les fonctions pour tester les differentes requêtes de l'API
+
