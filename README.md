@@ -8,6 +8,10 @@ Cloner le repository :
 ```bash
 git clone https://github.com/WoeFaker/ChickenFarmAPI.git
 ```
+Entrer dans le dossier : 
+```bash
+cd ./ChickenFarmAPI
+```
 Installation des dépendances :
 ```bash
 npm install
