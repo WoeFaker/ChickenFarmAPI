@@ -6,7 +6,7 @@ Une API en JavaScript (Node.js) pour gérer une ferme de poulets.
 
 Cloner le repository : 
 ```bash
-git clone https://github.com/your-username/chicken-farm-api.git
+git clone https://github.com/WoeFaker/ChickenFarmAPI.git
 ```
 Installation des dépendances :
 ```bash
